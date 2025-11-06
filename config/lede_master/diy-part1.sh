@@ -15,9 +15,8 @@ echo 'src-git qmodem https://github.com/FUjr/QModem.git;main' >> feeds.conf.defa
 #passwall
 echo 'src-git passwall_packages https://github.com/xiaorouji/openwrt-passwall-packages.git;main' >> feeds.conf.default
 echo 'src-git passwall2 https://github.com/xiaorouji/openwrt-passwall2.git' >> feeds.conf.default
-#ddns-go
-git clone https://github.com/sirpdboy/luci-app-ddns-go package/ddns-go
-make package/ddns-go/luci-app-ddns-go/compile V=s
+#ddns
+
 # other
 # rm -rf package/lean/{samba4,luci-app-samba4,luci-app-ttyd}
 
