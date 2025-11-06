@@ -13,7 +13,9 @@ echo 'src-git qmodem https://github.com/FUjr/QModem.git;main' >> feeds.conf.defa
 ./scripts/feeds update qmodem
 ./scripts/feeds install -a -p qmodem
 #passwall
-echo 'src-git passwall_packages https://github.com/xiaorouji/openwrt-passwall.git;packages' >> feeds.conf.default
+echo 'src-git lienol https://github.com/Lienol/openwrt-package.git;main' >> feeds.conf.default
+echo 'src-git other https://github.com/Lienol/openwrt-package.git;other' >> feeds.conf.default
+echo 'src-git PWpackages https://github.com/xiaorouji/openwrt-passwall.git;packages' >> feeds.conf.default
 echo 'src-git passwall2 https://github.com/xiaorouji/openwrt-passwall2.git' >> feeds.conf.default
 #ddns
 
